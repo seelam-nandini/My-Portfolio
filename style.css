@@ -12,10 +12,10 @@
 }
 
 :root {
-    --bg-color: #081b29;
-    --second-bg-color: #112e42;
-    --text-color: #ededed;
-    --main-color: #00abf0;
+    --bg-color: #d4d2d5;
+    --second-bg-color: #b5afa6;
+    --text-color: #black;
+    --main-color: #630330;
 }
 
 html {
@@ -180,7 +180,7 @@ section {
     left: 0;
     width: 0;
     height: 100%;
-    background:#00abf0;
+    background:#bfafa6;
     z-index: -1;
     transition: 0.5s;
 }
@@ -205,10 +205,10 @@ section {
     width: 40px;
     height: 40px;
     background: transparent;
-    border: .2rem solid var(--bg-color);
+    border: .2rem solid var(--main-color);
     border-radius: 50%;
     font-size: 20px;
-    color: var(--main-color);
+    color: black;
     z-index: 1;
     overflow: hidden;
     transition: .5s;
@@ -239,7 +239,7 @@ section {
     align-items: center;
     flex-direction: column;
     gap: 0.5rem;
-    background: var(--second-bg-color);
+    background: var(--bg-color);
     padding-bottom: 2rem;
 }
 
